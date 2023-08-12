@@ -1,0 +1,110 @@
+/* Write your CSS code here */
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 1110px;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.website-logo {
+  width: 185px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .website-logo {
+    display: none;
+  }
+}
+
+.website-login {
+  width: 60%;
+}
+
+.website-login {
+  width: 50%;
+}
+
+.website-logo-lg {
+  width: 250px;
+}
+
+@media screen and (max-width: 991px) {
+  .website-logo {
+    display: none;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+}
+@media screen and (min-width: 992px) {
+  .form-container {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 350px;
+    flex-shrink: 0;
+    padding: 40px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+.input-field {
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 0px;
+  background-color: #d7dfe9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 600;
+}
+.button {
+  width: 100%;
+  border: 0px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  margin-top: 20px;
+  outline: cursor;
+}
+.error-msg {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
